@@ -6,7 +6,7 @@ import { Client } from '../Client/Client';
 
 const app = express();
 
-const prr = PrerenderedExpess();
+const prr = PrerenderedExpess(app);
 app.use(prr.middleware({
   nonce: false,
 }));

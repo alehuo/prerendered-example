@@ -1,0 +1,5 @@
+{
+  "client": {
+    "entryPoint": "src/Client/Client.tsx"
+  }
+}
